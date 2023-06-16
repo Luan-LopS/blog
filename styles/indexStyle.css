@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+#fronteira{
+    width: 600px;
+    height: 500px;
+}
+
+span{
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.posts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin: 0 25px;
+    background-color: #002198;
+    color: #fff;
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+}
+.card h1{
+    font-size: 1.4rem;
+}
+
+.card-img{
+    width: 180px;
+}
+
+.description{
+    font-size: 0.8rem;
+}

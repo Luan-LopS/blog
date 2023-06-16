@@ -1,0 +1,97 @@
+:root{
+    /*Cor de Texto*/
+    --corText1: #fff;
+    --corText2: #ddd ;
+    /*Backgroud-color */
+    --fundoAzul: #002198;
+
+    /*Tamanho das fontes*/
+    --Size1: 1.5rem;
+    --Size2: 2rem;
+    --Size3: 2.5rem;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    ". main ."
+    "article article article "
+    ". . fale"
+    "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+.o-header{
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--fundoAzul);
+    font-size: var(--Size1);
+}
+
+a{
+    color: var(--corText1);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    padding-left: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0 20px 0 20px;
+}
+
+.o-main{
+    grid-area: main;
+}
+
+.o-article{
+    grid-area: article;
+    text-align: center;    
+}
+
+.fale{
+    grid-area: fale;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    grid-area: footer;
+    border-radius: 15px 15px 0 15px;
+    box-shadow: black -1px -1px 15px, black -1px 1px 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.o-footer{
+    grid-area: footer;  
+    background-color: aquamarine;
+    position: relative;
+    bottom: 0;
+  
+}
+

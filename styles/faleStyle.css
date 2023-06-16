@@ -1,0 +1,19 @@
+body{
+    font-size: 1.2rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.social-media{
+    width: 50%;
+    padding: 8px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    text-align: center;
+}
