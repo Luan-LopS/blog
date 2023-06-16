@@ -79,11 +79,11 @@ li{
 }
 
 .fale{
+    display: flex;
+    justify-content: center;
     grid-area: fale;
     background-color: aqua;
-    width: 100px;
-    height: 100px;
-    text-align: center;
+    padding: 20px;
     position: fixed;
     right: 0;
     bottom: 0;
