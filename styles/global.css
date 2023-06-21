@@ -83,7 +83,7 @@ li{
     justify-content: center;
     grid-area: fale;
     background-color: aqua;
-    padding: 20px;
+    padding: 20px 6px;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -95,9 +95,24 @@ li{
 }
 
 .o-footer{
+    text-align: center;
+
+    font-size: 1rem;
     grid-area: footer;  
-    background-color: aquamarine;
+    background-color: var(--fundoAzul);
+    color: #fff;
     position: relative;
     bottom: 0;
+}
+
+.o-footer h3{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 0.8rem;
+}
+
+li{
+    text-align: left;
 }
 
